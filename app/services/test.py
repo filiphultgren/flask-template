@@ -3,6 +3,9 @@ import json
 import logging
 
 
+# This is a service. A service is something that contains functionality and can be used by whatever endpoint/handler.
+# Here we can add/subtract/manipulate data. Do some request to other micro services and so on. Then when everything is
+# complete we can return a response.
 class TestService:
 
     def __init__(self):
